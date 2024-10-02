@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Zeldo;
+    src: url(HyliaSerifBeta-Regular.otf);
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -55,10 +61,6 @@ body {
     left: calc(50% + 660px); 
     opacity: 0;
 }
-/* .slide .item:nth-child(n + 7){
-    left: calc(50% + 880px);
-    opacity: 0;
-} */
 
 .item .content {
     position: absolute;
@@ -136,4 +138,11 @@ body {
 .button button:hover{
     background: #68377d;
     color: #eee;
+}
+
+.presentation {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: Zeldo;
 }
