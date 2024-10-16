@@ -12,12 +12,12 @@
 
 body {
     background-image: url("./Image/moijaiunbackground.gif");
-    overflow: hidden;
+    overflow: visible;
 }
 
 .container {
     position : absolute;
-    top : 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     width : 1000px;
@@ -141,7 +141,8 @@ body {
 }
 
 .presentation {
-    color: red;
+    position: static;
+    color: greenyellow;
     text-align: center;
     font-size: 40px;
     font-family: Zeldo;
