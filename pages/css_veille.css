@@ -1,0 +1,27 @@
+body {
+    background-image: url("../Image/bts-image.jpg");
+    overflow: hidden;
+    background-position: center;
+}
+
+.container-g {
+    position : absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width : 600px;
+    height: 400px;
+    background-color : rgb(211,211,211,0.6);
+    border-radius: 25%;
+}
+
+.container-d {
+    position : absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width : 600px;
+    height: 400px;
+    background-color : rgb(211,211,211,0.6);
+    border-radius: 25%;
+}
