@@ -5,6 +5,7 @@ body {
 }
 
 .container-g {
+    text-align: center;
     position : absolute;
     top: 50%;
     left: 25%;
@@ -16,6 +17,7 @@ body {
 }
 
 .container-d {
+    text-align: center;
     position : absolute;
     top: 50%;
     left: 75%;
